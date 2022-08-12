@@ -1,6 +1,5 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import Header from '../components/Header';
 import { client, urlFor } from '../sanity';
@@ -14,7 +13,7 @@ const Home: NextPage<Props> = ({ posts }: Props) => {
   return (
     <div className='max-w-7xl mx-auto'>
       <Head>
-        <title>Medium Blog</title>
+        <title>Dylstium</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
@@ -24,7 +23,7 @@ const Home: NextPage<Props> = ({ posts }: Props) => {
         <div className='px-10 space-y-5'>
           <h1 className='text-6xl max-w-xl font-serif'>
             <span className='underline decoration-black decoration-4'>
-              Medium
+              Dylstium
             </span>{' '}
             is a place to write, read, and connect
           </h1>
@@ -33,11 +32,10 @@ const Home: NextPage<Props> = ({ posts }: Props) => {
             with millions of readers.
           </h2>
         </div>
-
         <img
-          className='hidden md:inline-flex h-32 lg:h-full'
-          src='https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png'
-          alt='Medium logo'
+          className='hidden md:inline-flex h-40 lg:h-96 lg:p-8'
+          src='https://www.silhouettepng.com/wp-content/uploads/1/D-Letter-PNG-Images-HD.png'
+          alt='Logo'
         />
       </div>
 
