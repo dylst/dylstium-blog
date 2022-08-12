@@ -1,27 +1,33 @@
-# Next.js + Tailwind CSS Example
+# Dylstium - a Medium inspired Blog app
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+[Live Demo](https://dylstium-blog.vercel.app/) :point_left:
 
-## Deploy your own
+## Description
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+A Medium inspired blog app
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+This project helped me learn how to:
+- Setup a Content Management System (Sanity CMS) to manage structured data
+- Fetch CMS data into a Next.js app using efficient Modern Data Fetching techniques
+- Learn how to use Next.js Incremental Static Regeneration to speed up page loading & optimise the caching of pages!
+- Style an awesome responsive UI with Tailwind CSS
+- Write robust code & reduce bugs using TypeScript 
 
-## How to use
+## Built with
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Next](https://nextjs.org/)
+- [Sanity](https://www.sanity.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Authors
+- Dylan Cornel [dylst](https://github.com/dylst)
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## License
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br>
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br>
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.<br>
+MIT © Dylan Cornel<br>
